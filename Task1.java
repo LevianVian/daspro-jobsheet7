@@ -38,10 +38,9 @@ public class Task1 {
                                   tickets, discount * 100, totalPrice);
             } 
             else {
-                // Jika bukan angka, baca sebagai string
                 choice = input.next();
                 if (choice.equalsIgnoreCase("stop")) {
-                    break; // keluar dari loop
+                    break;
                 } else {
                     System.out.println("Invalid input! Please enter a number or 'stop'.");
                 }
